@@ -89,7 +89,6 @@ footer {
 	position: absolute;
 	right: 0;
 	top: 40%;
-
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
     display: flex;
@@ -97,6 +96,7 @@ footer {
     justify-content: center;
     align-items: center;
     color: white;
+	row-gap: 5px;
 }
 
 .sidebar-item {
