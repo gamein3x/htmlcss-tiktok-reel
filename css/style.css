@@ -121,7 +121,7 @@ footer {
 	le tue regole, se necessario. */
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     color: white;
 	row-gap: 20px;
