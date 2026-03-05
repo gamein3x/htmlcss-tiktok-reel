@@ -62,11 +62,6 @@ video {
 	bottom: -25%;
 	right: 25%;
 }
-/* 
-.page {
-	flex-shrink: 0px;
-}
-*/
 
 .hi-left, .hi-right {
 	margin: 0 20px;
@@ -97,6 +92,34 @@ footer {
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.sidebar-item {
+    text-align: center;
+}
+
+#logo-img {
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid;
+}
+
+.si-0::after {
+    content: "+";
+    font-weight: 500;
+    font-size: large;
+    display: inline-block;
+    background: red;
+    border-radius: 50%;
+    height: 18px;
+    aspect-ratio: 1;
+    line-height: 80%;
+    transform: translateY(-15px);
 }
 
 /* ---------------------
