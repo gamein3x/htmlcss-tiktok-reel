@@ -68,8 +68,6 @@ video {
 	transform: scale(1.2);
 }
 
-
-
 /* Footer */
 
 footer {
@@ -81,6 +79,23 @@ footer {
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: black;
+	text-align: center;
+}
+
+/*Seconda utility*/
+
+.foot-button {
+	font-size:12px;
+	width: 100px;
+}
+
+.big-icon2 {
+	transform: scale(2);
+	margin-bottom: 5px;
 }
 
 /* Sidebar */
