@@ -35,14 +35,28 @@ video {
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
 	display: flex;
-    justify-content: space-between;
 	color: white;
+	height: 70px;
 }
 
 .page-selector {
 	display:flex;
 	justify-content: space-between;
 	width: 160px;
+	transform: scale(1.1);
+	color: grey;
+	font-weight: 500;
+}
+
+/* 
+.page {
+	flex-shrink: 0px;
+}
+*/
+
+.hi-left, .hi-right {
+	margin: 0 20px;
+	transform: scale(1.2);
 }
 
 
