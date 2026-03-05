@@ -46,6 +46,7 @@ video {
 	transform: scale(1.1);
 	color: grey;
 	font-weight: 500;
+	position: relative;
 }
 
 .page2 {
@@ -68,6 +69,16 @@ video {
 	transform: scale(1.2);
 }
 
+.page1::after {
+	position: absolute;
+	content: "";
+	background: rgba(255, 0, 0, 0.393);
+	border-radius: 50%;
+	height: 7.5px;
+	aspect-ratio: 1;
+	left: 72%;
+	top: -4px;
+}
 /* Footer */
 
 footer {
