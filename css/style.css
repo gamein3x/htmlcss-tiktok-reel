@@ -84,6 +84,7 @@ footer {
 	align-items: center;
 	background: black;
 	text-align: center;
+	color: grey;
 }
 
 .foot-button {
@@ -105,6 +106,27 @@ footer {
 	border-left: 3px solid white;
 	transform: translateY(-10px);
 }
+
+.home-b {
+	color: white;
+}
+
+.mail-icon {
+	position: relative;
+}
+
+.mail-icon::after {
+	content: "19";
+	position: absolute;
+	background: #F93050;
+	color: white;
+	border-radius: 35%;
+	transform: scale(0.5);
+	width: 25px;
+	top: -4px;
+	left: 45%;
+}
+
 /*Seconda utility*/
 .big-icon2 {
 	transform: scale(2);
@@ -124,7 +146,7 @@ footer {
     justify-content: flex-start;
     align-items: center;
     color: white;
-	row-gap: 20px;
+	row-gap: 30px;
 }
 
 .sidebar-item {
@@ -153,7 +175,7 @@ footer {
     font-weight: 500;
     font-size: large;
     display: inline-block;
-    background: red;
+    background: #F93050;
     border-radius: 50%;
     height: 18px;
     aspect-ratio: 1;
