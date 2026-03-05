@@ -86,13 +86,26 @@ footer {
 	text-align: center;
 }
 
-/*Seconda utility*/
-
 .foot-button {
 	font-size:12px;
 	width: 100px;
 }
 
+.add-reel-icon {
+	background: white;
+	color: black;
+	width: 40%;
+	height: 28px;
+	margin: 0 auto;
+	text-align: center;
+	font-weight: 500;
+    font-size: large;
+	border-radius: 20%;
+	border-right: 3px solid #FF00FF;
+	border-left: 3px solid white;
+	transform: translateY(-10px);
+}
+/*Seconda utility*/
 .big-icon2 {
 	transform: scale(2);
 	margin-bottom: 5px;
