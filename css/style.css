@@ -96,11 +96,22 @@ footer {
     justify-content: center;
     align-items: center;
     color: white;
-	row-gap: 5px;
+	row-gap: 20px;
 }
 
 .sidebar-item {
     text-align: center;
+	transform: scale(1.2);
+}
+
+.sidebar-item:not(.si-0) {
+	font-size: 10px;
+}
+
+/*Utility*/
+.big-icon {
+	transform: scale(2);
+	margin-bottom: 4px;
 }
 
 #logo-img {
