@@ -50,7 +50,17 @@ video {
 
 .page2 {
 	color: white;
-	border-bottom: x;
+	position: relative;
+	white-space: nowrap;
+}
+
+.page2::before {
+	content: "";
+	position: absolute;
+	border-bottom: 3px white solid;
+	width: 50%;
+	bottom: -25%;
+	right: 25%;
 }
 /* 
 .page {
