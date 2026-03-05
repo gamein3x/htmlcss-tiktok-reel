@@ -34,7 +34,17 @@ video {
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
+	display: flex;
+    justify-content: space-between;
+	color: white;
 }
+
+.page-selector {
+	display:flex;
+	justify-content: space-between;
+	width: 160px;
+}
+
 
 /* Footer */
 
